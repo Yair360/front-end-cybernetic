@@ -7,6 +7,7 @@ const router = createRouter({
     routes: [
         {path: '/home', name: 'home', component: HomeComponent},
         {path: '/profile', name: 'profile', component: ProfileComponent},
+        // redireccion
         {path: '/', redirect: '/home'}
     ]
 });
